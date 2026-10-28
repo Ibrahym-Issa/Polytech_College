@@ -1,0 +1,332 @@
+{
+    "A": {
+        "B": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        },
+        "C": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        }
+    },
+    "B": {
+        "A": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        },
+        "C": {
+            "distance": 1,
+            "time": 1,
+            "closed": false
+        },
+        "D": {
+            "distance": 5,
+            "time": 5,
+            "closed": false
+        },
+        "F": {
+            "distance": 9,
+            "time": 9,
+            "closed": false
+        }
+    },
+    "C": {
+        "A": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "B": {
+            "distance": 1,
+            "time": 1,
+            "closed": false
+        },
+        "E": {
+            "distance": 7,
+            "time": 7,
+            "closed": false
+        },
+        "F": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        },
+        "H": {
+            "distance": 10,
+            "time": 10,
+            "closed": false
+        }
+    },
+    "D": {
+        "B": {
+            "distance": 5,
+            "time": 5,
+            "closed": false
+        },
+        "E": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "G": {
+            "distance": 6,
+            "time": 6,
+            "closed": false
+        }
+    },
+    "E": {
+        "C": {
+            "distance": 7,
+            "time": 7,
+            "closed": false
+        },
+        "D": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "F": {
+            "distance": 1,
+            "time": 1,
+            "closed": false
+        },
+        "H": {
+            "distance": 3,
+            "time": 3,
+            "closed": false
+        },
+        "K": {
+            "distance": 8,
+            "time": 8,
+            "closed": false
+        }
+    },
+    "F": {
+        "C": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        },
+        "E": {
+            "distance": 1,
+            "time": 1,
+            "closed": false
+        },
+        "H": {
+            "distance": 5,
+            "time": 5,
+            "closed": false
+        },
+        "I": {
+            "distance": 8,
+            "time": 8,
+            "closed": false
+        },
+        "B": {
+            "distance": 9,
+            "time": 9,
+            "closed": false
+        }
+    },
+    "G": {
+        "D": {
+            "distance": 6,
+            "time": 6,
+            "closed": false
+        },
+        "H": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "J": {
+            "distance": 7,
+            "time": 7,
+            "closed": false
+        },
+        "N": {
+            "distance": 6,
+            "time": 6,
+            "closed": false
+        }
+    },
+    "H": {
+        "E": {
+            "distance": 3,
+            "time": 3,
+            "closed": false
+        },
+        "F": {
+            "distance": 5,
+            "time": 5,
+            "closed": false
+        },
+        "G": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "I": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "K": {
+            "distance": 6,
+            "time": 6,
+            "closed": false
+        },
+        "C": {
+            "distance": 10,
+            "time": 10,
+            "closed": false
+        }
+    },
+    "I": {
+        "F": {
+            "distance": 8,
+            "time": 8,
+            "closed": false
+        },
+        "H": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "L": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        },
+        "M": {
+            "distance": 9,
+            "time": 9,
+            "closed": false
+        }
+    },
+    "J": {
+        "G": {
+            "distance": 7,
+            "time": 7,
+            "closed": false
+        },
+        "K": {
+            "distance": 1,
+            "time": 1,
+            "closed": false
+        },
+        "N": {
+            "distance": 8,
+            "time": 8,
+            "closed": false
+        }
+    },
+    "K": {
+        "H": {
+            "distance": 6,
+            "time": 6,
+            "closed": false
+        },
+        "J": {
+            "distance": 1,
+            "time": 1,
+            "closed": false
+        },
+        "L": {
+            "distance": 3,
+            "time": 3,
+            "closed": false
+        },
+        "N": {
+            "distance": 5,
+            "time": 5,
+            "closed": false
+        },
+        "E": {
+            "distance": 8,
+            "time": 8,
+            "closed": false
+        }
+    },
+    "L": {
+        "I": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        },
+        "K": {
+            "distance": 3,
+            "time": 3,
+            "closed": false
+        },
+        "M": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "O": {
+            "distance": 7,
+            "time": 7,
+            "closed": false
+        }
+    },
+    "M": {
+        "I": {
+            "distance": 9,
+            "time": 9,
+            "closed": false
+        },
+        "L": {
+            "distance": 2,
+            "time": 2,
+            "closed": false
+        },
+        "O": {
+            "distance": 3,
+            "time": 3,
+            "closed": false
+        }
+    },
+    "N": {
+        "J": {
+            "distance": 8,
+            "time": 8,
+            "closed": false
+        },
+        "K": {
+            "distance": 5,
+            "time": 5,
+            "closed": false
+        },
+        "O": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        },
+        "G": {
+            "distance": 6,
+            "time": 6,
+            "closed": false
+        }
+    },
+    "O": {
+        "L": {
+            "distance": 7,
+            "time": 7,
+            "closed": false
+        },
+        "M": {
+            "distance": 3,
+            "time": 3,
+            "closed": false
+        },
+        "N": {
+            "distance": 4,
+            "time": 4,
+            "closed": false
+        }
+    }
+}

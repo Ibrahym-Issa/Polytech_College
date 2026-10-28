@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Басты Бет - JS Тапсырмалары</title>
+    <!-- Подключаем иконки и шрифты -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        * { box-sizing: border-box; font-family: 'Poppins', 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        body { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 40px 20px; color: #333; display: flex; flex-direction: column; align-items: center; }
+        h1 { color: #fff; margin-bottom: 10px; font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        p.subtitle { color: #e0d5ff; margin-bottom: 40px; font-size: 1.1rem; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; max-width: 1200px; width: 100%; }
+        .card { background: rgba(255, 255, 255, 0.9); padding: 30px 20px; border-radius: 16px; text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
+            decoration : none; transition: all 0.3s ease; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border: 1px solid rgba(255,255,255,0.2); cursor: pointer; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.25); background: #fff; }
+        .card i { font-size: 2.5rem; color: #667eea; margin-bottom: 15px; }
+        .card h3 { font-size: 1.2rem; margin-bottom: 10px; color: #444; }
+        .card a { display: inline-block; margin-top: 15px; padding: 8px 20px; background: #667eea; color: #fff; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: 0.2s; }
+        .card a:hover { background: #764ba2; }
+    </style>
+</head>
+<body>
+
+    <h1>ЖаваСкрипт Тапсырмалар Панелі</h1>
+    <p class="subtitle">Өту үшін кез келген тапсырма карточкасын таңдаңыз</p>
+
+    <div class="grid-container">
+        <!-- Карточки для всех 10 задач -->
+        <div class="card">
+            <i class="fa-solid fa-window-maximize"></i>
+            <h3>Тапсырма 1: Интерфейс</h3>
+            <a href="task1.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-user-tag"></i>
+            <h3>Тапсырма 2: Мәтін енгізу</h3>
+            <a href="task2.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-arrow-left-right-to-line"></i>
+            <h3>Тапсырма 3: Санды тексеру</h3>
+            <a href="task3.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-palette"></i>
+            <h3>Тапсырма 4: Түстерді өзгерту</h3>
+            <a href="task4.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-calculator"></i>
+            <h3>Тапсырма 5: Калькулятор</h3>
+            <a href="task5.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-list-check"></i>
+            <h3>Тапсырма 6: Тапсырма беру</h3>
+            <a href="task6.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-route"></i>
+            <h3>Тапсырма 7: Тасымалдау</h3>
+            <a href="task7.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-text-height"></i>
+            <h3>Тапсырма 8: Әріптер қалпы</h3>
+            <a href="task8.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-stopwatch"></i>
+            <h3>Тапсырма 9: Таймер (Уақыт)</h3>
+            <a href="task9.html">Ашу</a>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-bars-progress"></i>
+            <h3>Тапсырма 10: Менеджер</h3>
+            <a href="task10.html">Ашу</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тапсырма 3: Санды тексеру</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        body { background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .container { background: #fff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); max-width: 400px; width: 100%; }
+        .back-btn { display: inline-flex; align-items: center; gap: 8px; color: #667eea; text-decoration: none; font-weight: 600; margin-bottom: 20px; }
+        h2 { margin-bottom: 15px; color: #333; }
+        input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #e1e1e1; border-radius: 10px; font-size: 1rem; }
+        button { width: 100%; padding: 12px; border: none; border-radius: 10px; background: #667eea; color: white; font-size: 1rem; font-weight: 600; cursor: pointer; }
+        button:hover { background: #556cd6; }
+        .result-box { margin-top: 20px; padding: 15px; background: #f8f9fa; border-left: 4px solid #667eea; border-radius: 6px; font-size: 1.1rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Басты бет</a>
+        <h2>Жұп / Тақ сандар</h2>
+        <input type="number" id="task3Input" placeholder="Сан енгізіңіз">
+        <button onclick="runTask3()"><i class="fa-solid fa-magnifying-glass"></i> Тексеру</button>
+        <div class="result-box" id="task3Result">Санды енгізіп, батырманы басыңыз</div>
+    </div>
+    <script src="3.js"></script>
+</body>
+</html>
