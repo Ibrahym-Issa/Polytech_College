@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тапсырма 7: Тасымалдау</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        body { background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .container { background: #fff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); max-width: 400px; width: 100%; }
+        .back-btn { display: inline-flex; align-items: center; gap: 8px; color: #667eea; text-decoration: none; font-weight: 600; margin-bottom: 20px; }
+        input { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #e1e1e1; border-radius: 10px; font-size: 1rem; }
+        button { width: 100%; padding: 12px; border: none; border-radius: 10px; background: #667eea; color: white; font-weight: bold; margin-top: 10px; cursor: pointer; }
+        .result-box { margin-top: 20px; padding: 15px; background: #f8f9fa; border-left: 4px solid #ffc107; border-radius: 6px; font-size: 1.1rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Басты бет</a>
+        <h2>Жол ақысын есептеу</h2>
+        <input type="number" id="task7Dist" placeholder="Қашықтық (км)">
+        <input type="number" id="task7Price" placeholder="Бағасы (1 км үшін, тг)">
+        <button onclick="runTask7()"><i class="fa-solid fa-coins"></i> Есептеу</button>
+        <div class="result-box" id="task7Result">Жалпы құны: 0 тг</div>
+    </div>
+    <script src="7.js"></script>
+</body>
+</html>
