@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тапсырма 4: Түстерді өзгерту</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        body { background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; transition: background 0.5s ease; }
+        .container { background: #fff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); max-width: 450px; width: 100%; text-align: center; }
+        .back-btn { display: inline-flex; align-items: center; gap: 8px; color: #667eea; text-decoration: none; font-weight: 600; margin-bottom: 20px; float: left; }
+        .clearfix { clear: both; }
+        .color-preview { padding: 40px; margin: 20px 0; border: 2px dashed #ccc; border-radius: 12px; font-weight: 600; font-size: 1.1rem; color: #555; transition: all 0.3s ease; }
+        .btn-group { display: flex; gap: 10px; justify-content: center; }
+        button { padding: 12px 24px; border: none; border-radius: 10px; color: white; font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 6px; }
+        .btn-red { background: #dc3545; }
+        .btn-green { background: #28a745; }
+        .btn-blue { background: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Басты бет</a>
+        <div class="clearfix"></div>
+        <h2>Фон түсін өзгерту</h2>
+        <div id="colorBox" class="color-preview">Түс таңдалмады</div>
+        <div class="btn-group">
+            <button class="btn-red" onclick="changeBoxColor('red')"><i class="fa-solid fa-circle"></i> Қызыл</button>
+            <button class="btn-green" onclick="changeBoxColor('green')"><i class="fa-solid fa-circle"></i> Жасыл</button>
+            <button class="btn-blue" onclick="changeBoxColor('blue')"><i class="fa-solid fa-circle"></i> Көк</button>
+        </div>
+    </div>
+    <script src="4.js"></script>
+</body>
+</html>

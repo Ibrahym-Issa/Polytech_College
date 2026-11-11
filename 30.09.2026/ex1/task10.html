@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тапсырма 10: Кеңейтілген Менеджер</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        body { background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .container { background: #fff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); max-width: 500px; width: 100%; }
+        .back-btn { display: inline-flex; align-items: center; gap: 8px; color: #667eea; text-decoration: none; font-weight: 600; margin-bottom: 20px; }
+        .input-group { display: flex; gap: 8px; margin-bottom: 15px; }
+        select { padding: 10px; border: 1px solid #e1e1e1; border-radius: 10px; background: #fff; font-size: 0.9rem; }
+        input { flex: 1; padding: 12px; border: 1px solid #e1e1e1; border-radius: 10px; font-size: 1rem; }
+        button.add-btn { background: #667eea; color: white; border: none; padding: 12px 20px; border-radius: 10px; font-weight: bold; cursor: pointer; }
+        ul { list-style: none; margin-top: 15px; max-height: 250px; overflow-y: auto; }
+        li { padding: 12px 15px; background: #f8f9fa; margin-bottom: 8px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border-left: 5px solid #ccc; transition: 0.2s; }
+        li.high { border-left-color: #dc3545; background: #fff5f5; }
+        li.normal { border-left-color: #28a745; background: #f5fff6; }
+        .delete-ico { color: #dc3545; cursor: pointer; transition: 0.2s; padding: 4px; }
+        .delete-ico:hover { transform: scale(1.2); }
+        .status-bar { margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee; display: flex; justify-content: space-between; font-size: 0.9rem; color: #666; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Басты бет</a>
+        <h2>Тапсырмалар Менеджері Pro</h2>
+        
+        <div class="input-group">
+            <input type="text" id="task10Input" placeholder="Жаңа тапсырма...">
+            <select id="task10Priority">
+                <option value="normal">Қалыпты</option>
+                <option value="high">Маңызды 🔥</option>
+            </select>
+            <button class="add-btn" onclick="addTask10()">Қосу</button>
+        </div>
+
+        <ul id="task10List"></ul>
+
+        <div class="status-bar">
+            <span id="task10Count">Барлығы: 0 тапсырма</span>
+            <span style="color: #dc3545; cursor: pointer;" onclick="clearAllTasks()">Барлығын тазалау</span>
+        </div>
+    </div>
+    <script src="10.js"></script>
+</body>
+</html>
