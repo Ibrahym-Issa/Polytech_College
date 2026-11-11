@@ -1,0 +1,14 @@
+Если нужно проверить задачи прямо в этом открытом окне, используйте проверенный способ с $env:Path:
+
+$javacDir = (Get-ChildItem -Path "C:\Program Files" -Filter "javac.exe" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1).DirectoryName
+$env:Path += ";$javacDir"
+javac -encoding UTF-8 *.java
+
+
+После этого в этом же окне по очереди запускайте задачи:
+• java Task1
+• java Task2
+• java Task3
+• java Task4
+
+
